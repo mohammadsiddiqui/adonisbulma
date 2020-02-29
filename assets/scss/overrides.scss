@@ -1,7 +1,9 @@
 .navbar-item {
   color: #ffffff;
   letter-spacing: 1px;
-  font-size: 90%;
+  font-size: 85%;
+  font-weight: 600;
+
 }
 
 .nav-logo {
@@ -16,4 +18,35 @@
 
 #navbar {
   transition: 0.4s;
+}
+
+.burger a,
+.navbar-burger:hover {
+  color: #ffffff;
+  background: transparent;
+}
+
+
+.navbar-burger span {
+  height: 2px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .navbar-menu {
+    display: block;
+  }
+
+  #navbarBasicExample {
+    position: absolute;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    transition: 0.4s;
+    background: #c6bd96;
+  }
+
+  #navbarBasicExample.is-active {
+    right: 0;
+  }
 }
