@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!canvas) {
     nav.classList.add("is-primary");
   } else if (canvas && canvas.clientHeight) {
-    Height = canvas.clientHeight;
+    Height = canvas.clientHeight - 100;
   }
 
   if ($navbarBurgers.length > 0) {

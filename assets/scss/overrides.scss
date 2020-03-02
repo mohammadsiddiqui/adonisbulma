@@ -1,3 +1,57 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vcenter {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+}
+
+.bg1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("/tech.jpg");
+}
+
+.fabico {
+  color: #ddd;
+  padding: 10px;
+  font-size: 40px;
+  line-height: 40px;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+}
+
+.sp5 {
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+
+.bord {
+  border: 2px solid #c6bd96;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    border-color: #c6bd96;
+  }
+  50% {
+    border-color: #ffe2d1;
+  }
+  100% {
+    border-color: #c6bd96;
+  }
+}
+
+.contB {
+  border-width: 2px;
+}
+
 .navbar-item {
   color: #ffffff;
   letter-spacing: 1px;
