@@ -6,11 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title> 
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"> </script>
+  <script src="./sketch.js"></script>
     {{ style('build/app') }}
   </head>
-  <body class="has-navbar-fixed-top">
+  <body class="has-navbar-fixed-topx">
     @include('partials.navbar')  
-   
+ 
+  
+    <section class="hero is-fullheight">
+      <div id="mainCanvas" class="is-overlay"></div>
+      <div class="hero-body">
+        <div class="container ">
+          <h1 class="title has-text-white">
+            INGENIUS TECHNOLOGIES AND CONSULTING PTE. LTD.
+          </h1>
+          <h2 class="subtitle has-text-white">
+            Artificial Intelligence | ERP | Digital Service Provider
+          </h2>
+          <h4 class="has-text-white">we believe the power of good advice is</h4>
+          <h2 class="title has-text-white">PRICELESS</h2>
+        </div>
+      </div>
+    </section>
+
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Hello World
+        </h1>
+        <h2 class="subtitle">
+          Fullheight subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+    <!--
 
   <section class="hero is-fullheight" id="home">
     <div class="hero-body">
@@ -63,6 +96,8 @@
       </div>
     </div>
   </section>
+
+-->
 
   @include('partials.footer')
   {{ script('build/app') }}
